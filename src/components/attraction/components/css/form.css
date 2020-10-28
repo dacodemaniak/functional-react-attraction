@@ -1,0 +1,32 @@
+form {}
+
+form div.form-group {
+    padding: 1em;
+}
+
+form div.form-group input, form div.form-group select, form div.form-group textarea {
+    border: solid 1px var(--secondary);
+    color: var(--primary);
+    border-radius: .25em;
+    padding: .5em;
+}
+
+form button.btn {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: .25em;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+form button.btn.btn-primary {
+    border-color: var(--primary);
+    color: var(--secondary);
+    background-color: var(--primary);
+    transition: all .35s 0s ease-in;
+}
+
+form button.btn.btn-primary:hover {
+    background-color: var(--lighten-primary);
+    color: var(--primary)
+}

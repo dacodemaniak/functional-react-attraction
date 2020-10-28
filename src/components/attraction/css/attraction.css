@@ -1,0 +1,29 @@
+[class^="icon-"].disabled, [class*=" icon-"].disabled {
+        color: var(--light);
+        cursor: not-allowed;
+}
+
+.icon-cross {
+    cursor: pointer;
+}
+
+/**
+* Table design
+**/
+table.table {
+    width: 100%;
+    border: solid 1px var(--light);
+}
+
+table.table tr th {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+table.table tbody tr:nth-child(odd) {
+    background-color: var(--success);
+}
+
+table.table tbody tr:nth-child(even) {
+    background-color: white;
+}
